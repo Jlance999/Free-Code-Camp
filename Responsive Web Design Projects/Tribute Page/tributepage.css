@@ -2,6 +2,7 @@ body {
     font-family: Lato;
     color: rgb(0, 0, 0);
     text-align: center;
+    background-color: rgb(202, 202, 202);
 }
 
 #tribute-info {
@@ -20,4 +21,21 @@ h1 {
 
 hr {
     width: auto;
+}
+
+#img-div {
+    background-color: rgb(179, 179, 179);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+#img-caption {
+    margin: 0;
+    font-size: 10;
+    color: rgb(44, 44, 44);
 }
