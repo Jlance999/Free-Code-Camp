@@ -1,0 +1,26 @@
+#header-img {
+    height: 60px;
+    width: 60px;
+}
+
+.container-1 {
+    background-color: rgb(126, 126, 126);
+    display: flex;
+    border: 2px black solid;
+}
+
+#nav-bar {
+    margin-left: 82rem;
+    align-self: center;
+    border: 1px red;
+}
+
+#nav-link {
+    color:aqua;
+    margin-left: 5rem;
+    border: 1px blue;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+}
