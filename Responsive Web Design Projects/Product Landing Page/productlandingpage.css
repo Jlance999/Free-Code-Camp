@@ -9,18 +9,41 @@
     border: 2px black solid;
 }
 
+.container-2 {
+    display: flex;
+    border: 2px black solid;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner1 {
+    flex: 1;
+}
+
+.inner2 {
+    flex: 1;
+}
+
+.inner3 {
+    flex: 1;
+}
 #nav-bar {
     margin-left: 82rem;
     align-self: center;
-    border: 1px red;
 }
 
-#nav-link {
-    color:aqua;
+.nav-link {
+    color: white;
     margin-left: 5rem;
-    border: 1px blue;
 }
 
 body {
     background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+h2 {
+    font-size:5ch;
+    text-decoration: underline;
 }
