@@ -6,15 +6,27 @@
 .container-1 {
     background-color: rgb(126, 126, 126);
     display: flex;
-    border: 2px black solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px black solid;
 }
 
 .container-2 {
+    margin-top: 2rem;
     display: flex;
-    border: 2px black solid;
     padding: 10px;
     flex-direction: column;
     align-items: center;
+}
+
+.container-3 {
+    background-color: rgb(126, 126, 126);
+    display: flex;
+    border-top: 2px black solid;
+    align-items: stretch;
+    width: 100%;
+    bottom: 0;
 }
 
 .inner1 {
@@ -22,9 +34,48 @@
 }
 
 .inner2 {
+    display: flex;
     flex: 1;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
+.price-container {
+    border: 1px solid black;
+    flex-basis: 30%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-container button {
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(255, 234, 50);
+    font-size: 2ch;
+}
+
+.price-container button:hover {
+    background-color:rgba(255, 241, 50, 0.795);
+}
+.price-header {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: .7rem;
+    font-size: 1.7rem;
+}
+
+.price-footer {
+    display: flex;
+    margin-bottom: .5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
 .inner3 {
     flex: 1;
 }
@@ -41,9 +92,47 @@
 body {
     background-color: rgb(59, 59, 59);
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
     font-size:5ch;
     text-decoration: underline;
+    text-align: center;
+}
+
+#form-intro {
+    text-align: center;
+    margin-left: 44rem;
+}
+
+#email-label {
+    margin-left: 3rem;
+}
+
+#email {
+    margin-left: 3rem;
+}
+
+#submit {
+    background-color: rgb(47, 255, 99);
+    font-size: 2ch;
+    border-radius: 20%;
+}
+
+#submit:hover {
+    background-color: rgb(0, 218, 0);
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    body {
+        background-color: rgb(59, 59, 59);
+    }
 }
